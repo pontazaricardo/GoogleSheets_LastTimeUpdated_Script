@@ -26,3 +26,4 @@ contains the actual name of the sheet you are working on (in this case *Sheet1*)
 
 ## Code
 
+The function that we are modifying is the **onEdit(e)** function, which runs every time the cursor leaves a cell after performing a modification (no matter the key pressed to escape the cell, like *Enter*, the key pad or other).
