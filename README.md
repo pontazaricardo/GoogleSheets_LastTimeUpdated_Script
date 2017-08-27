@@ -67,4 +67,4 @@ function onEdit(e){
 
 ### Notes
 
-
+For this code, the [PST8PDT](http://www.timezoneconverter.com/cgi-bin/zoneinfo.tzc?s=default&tz=PST8PDT) time format is used.
