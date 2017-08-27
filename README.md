@@ -9,3 +9,6 @@ This project assumes that you have a Google Sheet document and this document use
 ![example](/images/demo.gif?raw=true)
 
 After any modification in any column (except in the header), the "Last updated" column in that row is updated. This also happens automatically for newly added rows.
+
+## Installation 
+
