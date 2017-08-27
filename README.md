@@ -12,3 +12,5 @@ After any modification in any column (except in the header), the "Last updated" 
 
 ## Installation 
 
+In a new Google Sheet document, go to *Tools* -> *Script editor...*.
+
