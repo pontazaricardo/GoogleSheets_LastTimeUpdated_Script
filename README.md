@@ -15,3 +15,5 @@ After any modification in any column (except in the header), the "Last updated" 
 In a new Google Sheet document, go to *Tools* -> *Script editor...*.
 
 ![install01](/images/pic04.png?raw=true)
+
+In this window, copy the code inside the **Code.gs** file found in the **main** folder of this project.
