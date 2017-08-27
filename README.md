@@ -65,13 +65,13 @@ function onEdit(e){
 }
 ```
 
-### Different header
+### Notes
+
+
 
 If your header is not in the first row, just modify accordingly the following line:
 ```javascript
 if((lastUpdatedColumn>0) && (r.getRow() != 1)){ //We need this validation to be sure that a "Last updated" column exists, and we do not want to erase the "Last column" header if we update the first row.
 ```
 
-### Notes
-
-For this code, the PST8PDT time zone is used. If you want to use a different time zone, click [here](http://www.timezoneconverter.com/cgi-bin/zoneinfo.tzc?s=default&tz=PST8PDT) to see the available options.
+Also for this code, the PST8PDT time zone is used. If you want to use a different time zone, click [here](http://www.timezoneconverter.com/cgi-bin/zoneinfo.tzc?s=default&tz=PST8PDT) to see the available options.
