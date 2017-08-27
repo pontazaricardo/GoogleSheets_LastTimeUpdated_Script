@@ -16,6 +16,13 @@ In a new Google Sheet document, go to *Tools* -> *Script editor...*.
 
 ![install01](/images/pic04.png?raw=true)
 
-In this window, copy the code inside the **Code.gs** file found in the **main** folder of this project. After copying it, click on the **Run** button. This will display a series of authorization messages that you need to accept.
+In this window, copy the code inside the **Code.gs** file found in the **main** folder of this project. After copying it, verify that the line
+```javascript
+if(s.getName() == "Sheet1"){ //Modify this one and use your sheet name
+```
+contains the actual name of the sheet you are working on. Then click on the **Run** button. This will display a series of authorization messages that you need to accept.
 
 ![install01](/images/app.gif?raw=true)
+
+## Code
+
